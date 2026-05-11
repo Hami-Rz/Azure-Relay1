@@ -1,7 +1,7 @@
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const TARGET_URL = 'https://nks.po2pco.top:8367/';
+const TARGET_URL = 'https://nks.po2pco.top:8367';
 
 const keepAliveAgent = new http.Agent({
   keepAlive: true,
